@@ -6,7 +6,7 @@ library(edgeR)
 
 # read in count table
 
-counts <- read.delim("talitrus_genes.counts.matrix", row.names=1)
+counts <- read.delim("talitrus_genes.counts.matrix")
 
 
 
