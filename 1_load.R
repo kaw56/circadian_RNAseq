@@ -2,3 +2,11 @@
 
 ## @knitr load
 library(knitr)
+library(edgeR)
+
+# read in count table
+
+counts <- read.delim("talitrus_genes.counts.matrix", row.names=1)
+
+
+
