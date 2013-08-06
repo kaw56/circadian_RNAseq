@@ -10,7 +10,7 @@ Requirements
 R
 
 Packages: 
-knitr
-ggplot2
-reshape2
-edgeR
++knitr
++ggplot2
++reshape2
++edgeR
