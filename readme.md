@@ -1,16 +1,20 @@
-Project name: Template
+Circadian RNA-seq analysis
 ======================
 
-This is a template for R script repos. 
+This repo is for me to fumble around with until I find a sensible way to 
+analyse my timecourse data and find cyclical transcripts
 
-This repo has a knitr report that you can configure to give you a pretty
-pdf of your analysis
-
-Be sure to explain the usage of the script and the types of data it can 
-analyse and what the output will be.
 
 Requirements
 ------------
 R
 
-Requires: knitr
+Packages: 
+
+knitr
+
+ggplot2
+
+reshape2
+
+edgeR
