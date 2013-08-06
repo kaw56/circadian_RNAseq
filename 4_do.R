@@ -11,10 +11,10 @@ ridiculous <- ggplot(counts_long, aes(x=time,
 ridiculous
 
 # putting into edgeR-type format
-diff_expr_CT3 <- DGEList(counts=CT3)
-diff_expr_CT6 <- DGEList(counts=CT6)
-diff_expr_CT9 <- DGEList(counts=CT9)
-diff_expr_CT12 <- DGEList(counts=CT12)
-diff_expr_CT15 <- DGEList(counts=CT15)
-diff_expr_CT18 <- DGEList(counts=CT18)
-diff_expr_CT21 <- DGEList(counts=CT21)
+diff_expr_CT3 <- DGEList(counts=CT3vCT0, genes=gene_list)
+diff_expr_CT6 <- DGEList(counts=CT6vCT0, genes=gene_list)
+diff_expr_CT9 <- DGEList(counts=CT9vCT0, genes=gene_list)
+diff_expr_CT12 <- DGEList(counts=CT12vCT0, genes=gene_list)
+diff_expr_CT15 <- DGEList(counts=CT15vCT0, genes=gene_list)
+diff_expr_CT18 <- DGEList(counts=CT18vCT0, genes=gene_list)
+diff_expr_CT21 <- DGEList(counts=CT21vCT0, genes=gene_list)
