@@ -6,7 +6,7 @@ library(edgeR)
 
 # read in count table (it lives in ~/Documents/Talitrus/Replicates btw)
 
-counts <- read.delim("talitrus_genes.counts.matrix")
+counts <- read.delim("trinity_genes.expectedcounts.matrix")
 
 
 
